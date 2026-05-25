@@ -9,14 +9,31 @@
 
 ## 快速開始
 
+> **注意：這是完整的 Unity 專案，不是 Package。**
+> 請用以下步驟開啟，不要貼網址到 Unity Package Manager。
+
+**Step 1 — Clone 到本機**（在終端機 / PowerShell 執行）
+
 ```bash
 git clone https://github.com/AhhhhHeyyy/UnityLong.git
 ```
 
-1. 打開 Unity Hub → **Add project from disk** → 選 clone 下來的資料夾
-2. 第一次開啟時 Unity 會自動下載套件（需等待幾分鐘）
-3. 打開 `Assets/Assets/Scenes/` 內任一場景後按 **Play**
-4. 畫面上的 QR Code 用手機掃描，即可開始控制
+**Step 2 — 用 Unity Hub 開啟**
+
+1. 打開 **Unity Hub**
+2. 點選 **Add** → **Add project from disk**
+3. 選取剛才 clone 下來的 `UnityLong` 資料夾（根目錄，不是子資料夾）
+4. 確認 Unity 版本為 **6000.0.60f1**，按 Open
+
+**Step 3 — 等待套件還原**
+
+第一次開啟時 Unity 會自動下載套件（WebRTC、NativeWebSocket、URP），需等待幾分鐘。
+
+**Step 4 — 執行**
+
+1. 打開 `Assets/Assets/Scenes/` 內任一場景
+2. 按 **Play**
+3. 畫面上的 QR Code 用手機掃描，即可開始控制
 
 ---
 
