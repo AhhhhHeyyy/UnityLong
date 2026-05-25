@@ -12,11 +12,12 @@
 > **注意：這是完整的 Unity 專案，不是 Package。**
 > 請用以下步驟開啟，不要貼網址到 Unity Package Manager。
 
-**Step 1 — Clone 到本機**（在終端機 / PowerShell 執行）
+**Step 1 — 下載專案**
 
-```bash
-git clone https://github.com/AhhhhHeyyy/UnityLong.git
-```
+有兩種方式，擇一即可：
+
+- **不需要 git**：直接下載 ZIP → [點此下載](https://github.com/AhhhhHeyyy/UnityLong/archive/refs/heads/main.zip) → 解壓縮
+- **有安裝 git**：在終端機執行 `git clone https://github.com/AhhhhHeyyy/UnityLong.git`
 
 **Step 2 — 用 Unity Hub 開啟**
 
