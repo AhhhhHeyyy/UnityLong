@@ -89,10 +89,11 @@ public class WebRtcSelectController : MonoBehaviour
             DraggableObject draggable = hit.collider.GetComponentInParent<DraggableObject>();
             if (draggable == null) continue;
 
-            Rigidbody rb = draggable.GetComponent<Rigidbody>();
+            // 往上找父物件的 Rigidbody（移動整個父物件）
+            Rigidbody rb = draggable.GetComponentInParent<Rigidbody>();
             if (rb == null)
             {
-                Debug.LogWarning($"[Grab] {hit.collider.name} 有 DraggableObject 但缺少 Rigidbody");
+                Debug.LogWarning($"[Grab] {hit.collider.name} 有 DraggableObject 但父層缺少 Rigidbody");
                 continue;
             }
 
